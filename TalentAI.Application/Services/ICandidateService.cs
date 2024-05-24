@@ -9,8 +9,8 @@ namespace TalentAI.Application.Services
 {
     public interface ICandidateService
     {
-        CandidateGetDto GetById(int id);
-        List<CandidateGetDto> GetAll();
+        CandidateDto GetById(Guid id);
+        List<CandidateDto> GetAll();
         void Add(CandidateAddDto candidateAddDto);
         void Update(int id, CandidateUpdateDTO candidateUpdateDto);
         void Delete(int id);

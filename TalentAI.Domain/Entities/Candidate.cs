@@ -20,6 +20,7 @@ namespace TalentAI.Domain.Entities
         // İlişkisel bağlantılar
         public List<WorkExperience> WorkExperiences { get; set; }
         public List<Certification> Certifications { get; set; }
+        public List<Skill> Skills { get; set; }
 
     }
 }

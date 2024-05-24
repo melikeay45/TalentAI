@@ -13,7 +13,8 @@ namespace TalentAI.Application.Dtos
         public string Email { get; set; }
         public string Phone { get; set; }
         public CandidateStatus Status { get; set; }
-        public List<WorkExperienceUpdateDTO> WorkExperiences { get; set; }
-        public List<CertificationUpdateDTO> Certifications { get; set; }
+        public List<WorkExperienceUpdateDto> WorkExperiences { get; set; }
+        public List<CertificationUpdateDto> Certifications { get; set; }
+        public List<SkillUpdateDto> Skills { get; set; }
     }
 }
